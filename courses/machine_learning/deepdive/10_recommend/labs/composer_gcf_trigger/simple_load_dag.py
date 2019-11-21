@@ -52,7 +52,7 @@ FAILURE_TAG = 'failure'
 INPUT_BUCKET_CSV = 'gs://'+models.Variable.get('gcp_input_location')+'/usa_names.csv' 
 
 # TODO: Populate the models.Variable.get() with the actual variable name for your output bucket
-COMPLETION_BUCKET = 'gs://'+models.Variable.get('')
+COMPLETION_BUCKET = 'qwiklabs-gcp-ml-3b4c41182bb8')
 
 DS_TAG = '{{ ds }}'
 DATAFLOW_FILE = os.path.join(

@@ -56,7 +56,7 @@ ARTICLE_CUSTOM_DIMENSION = '10'
 
 # TODO: Confirm bucket name and region
 # GCS bucket names and region, can also be changed.
-BUCKET = 'gs://recserve_' + PROJECT_ID
+BUCKET = 'qwiklabs-gcp-ml-3b4c41182bb8' + PROJECT_ID
 REGION = 'us-east1'
 
 # The code package name comes from the model code in the wals_ml_engine
